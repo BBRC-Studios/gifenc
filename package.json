@@ -1,5 +1,5 @@
 {
-  "name": "gifenc",
+  "name": "@bbrc-studios/gifenc",
   "version": "1.0.3",
   "description": "very fast JS GIF encoder",
   "main": "./dist/gifenc.js",
@@ -10,12 +10,7 @@
   "module": "./dist/gifenc.esm.js",
   "types": "./types.d.ts",
   "license": "MIT",
-  "author": {
-    "name": "Matt DesLauriers",
-    "email": "dave.des@gmail.com",
-    "url": "https://github.com/mattdesl"
-  },
-  "dependencies": {},
+  "author": "Buooy",
   "devDependencies": {
     "ava": "^3.15.0",
     "canvas-sketch-util": "^1.10.0",
@@ -49,5 +44,11 @@
   "homepage": "https://github.com/mattdesl/gifenc",
   "bugs": {
     "url": "https://github.com/mattdesl/gifenc/issues"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "npmrc": "^1.1.1"
   }
 }

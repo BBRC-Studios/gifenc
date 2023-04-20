@@ -2,6 +2,7 @@ import constants from "./constants.js";
 import lzwEncode from "./lzwEncode.js";
 import createStream from "./stream.js";
 import quantize from "./pnnquant2.js";
+import dither from "./dither.js";
 
 import {
   prequantize,
@@ -281,6 +282,7 @@ function colorTableSize(length) {
 }
 
 export {
+  dither,
   GIFEncoder,
   quantize,
   prequantize,
